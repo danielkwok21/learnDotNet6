@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 {
     // Add services to the container.
-
+    builder.Services.AddRazorPages();
     builder.Services.AddControllers();
 
     // specify such that within a single request, whenever IBreakfastService is called, instantiate BreakfastService
@@ -23,8 +23,11 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 {
     app.UseHttpsRedirection();
+    app.UseStaticFiles();
 
     app.MapControllers();
+
+    app.MapRazorPages();
 
     app.Run();
 }
