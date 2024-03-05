@@ -1,8 +1,5 @@
 # What is this
-me learning dotnot from https://www.youtube.com/watch?v=PmDJIooZjBE
-
-# Lessons are in the pull requests tab
-https://github.com/danielkwok21/learnDotNet6/pulls?q=is%3Apr
+me learning dotnot from a bunch of places. Lessons are in the pull requests tab https://github.com/danielkwok21/learnDotNet6/pulls?q=is%3Apr
 
 # Commonly used commands
 ```bash
